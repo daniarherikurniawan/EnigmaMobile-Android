@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:background="@drawable/background2"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:gravity="center"
+        android:text="Machine Configuration: "
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView2"
+   		android:layout_marginLeft="15dp"
+   		android:layout_marginRight="15dp"
+   		android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="This machine consist of three variables thet represent the three wheels on the Enigma machine: the inner, middle, and outer rotor. Each rotor contain a permutation of the 26 capital letters plus the '#' symbol. There will be no spaces between the characters, and corresponding characters on each line are aligned on their respective wheels. That is, the first characters on each line are aligned with each other, the second characters are aligned with each other, and so on. You may assume that this message contains only those letters that appear on the wheels ('A'..'Z', '#') and that the message will be terminated by a period." />
+	
+	<TextView
+	    android:id="@+id/textView1"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="center"
+	    android:text="Example : "
+	    android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView2"
+   		android:layout_marginLeft="10dp"
+   		android:layout_marginRight="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=  "Inner : #GNUAHOVBIPWCJQXDKRYELSZFMT\nMiddle : #EJOTYCHMRWAFKPUZDINSXBGLQV\nOuter : #BDFHJLNPRTVXZACEGIKMOQSUWY"/>
+    
+	<TextView
+	    android:id="@+id/textView1"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:gravity="center"
+	    android:text="Input and Output Text : "
+	    android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView2"
+   		android:layout_marginLeft="15dp"
+   		android:layout_marginRight="15dp"
+   		android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Input and output text contains only those letters ('A'..'Z', '#') and will be terminated by a period. Example input and output text: AAA#ALAN#TURING#RULES."/>
+</LinearLayout>
